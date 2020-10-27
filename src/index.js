@@ -1,5 +1,8 @@
+/* eslint-disable no-undef */
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+import './index.css';
 
 const tag = <strong>Hello World!</strong>;
 
