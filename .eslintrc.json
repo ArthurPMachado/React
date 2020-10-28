@@ -24,6 +24,8 @@
         "react/jsx-filename-extension": "off",
         "comma-dangle": "warn",
         "arrow-parens": "warn",
-        "object-curly-newline": "warn"
+        "object-curly-newline": "warn",
+        "react/prop-types": "warn",
+        "react/destructuring-assignment": "warn"
     }
 }
