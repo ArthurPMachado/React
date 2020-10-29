@@ -26,6 +26,7 @@
         "arrow-parens": "warn",
         "object-curly-newline": "warn",
         "react/prop-types": "warn",
-        "react/destructuring-assignment": "warn"
+        "react/destructuring-assignment": "warn",
+        "no-unused-vars": "warn"
     }
 }

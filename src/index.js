@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 
 import Primeiro from './components/basics/Primeiro';
 import Propriedades from './components/basics/Propriedades';
+import Fragmento from './components/basics/Fragmento';
 
 import './index.css';
 
@@ -15,6 +16,7 @@ ReactDOM.render(
       aluno="Arthur Machado"
       nota={9.3}
     />
+    <Fragmento />
   </div>,
   document.getElementById('root'),
 );

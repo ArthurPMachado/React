@@ -1,6 +1,8 @@
 import React from 'react';
 
-function Propriedades({ nota, titulo, aluno }) {
+function Propriedades(props) {
+  const { titulo, aluno, nota } = props;
+
   const status = nota >= 7 ? 'Aprovado' : 'Recuperação';
 
   return (
