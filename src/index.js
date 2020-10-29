@@ -2,21 +2,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Primeiro from './components/basics/Primeiro';
-import Propriedades from './components/basics/Propriedades';
-import Fragmento from './components/basics/Fragmento';
+import App from './App';
 
 import './index.css';
 
 ReactDOM.render(
-  <div>
-    <Primeiro />
-    <Propriedades
-      titulo="Situação do Aluno"
-      aluno="Arthur Machado"
-      nota={9.3}
-    />
-    <Fragmento />
-  </div>,
+  <App />,
   document.getElementById('root'),
 );
