@@ -14,18 +14,18 @@ function App() {
       <h1>Fundamentos React</h1>
 
       <div className="cards">
-        <Card titulo="#04 - Desafio Numero Aleatorio">
+        <Card titulo="#04 - Desafio Numero Aleatorio" cor="#FA6900">
           <NumeroAleatorio
             min={10}
             max={100}
           />
         </Card>
 
-        <Card titulo="#03 - Fragmento">
+        <Card titulo="#03 - Fragmento" cor="#E94C6F">
           <Fragmento />
         </Card>
 
-        <Card titulo="#02 - Com Propriedades">
+        <Card titulo="#02 - Com Propriedades" cor="#E8B71A">
           <Propriedades
             titulo="Situação do Aluno"
             aluno="Arthur Machado"
@@ -33,7 +33,7 @@ function App() {
           />
         </Card>
 
-        <Card titulo="#01 - Primeiro Componente">
+        <Card titulo="#01 - Primeiro Componente" cor="#588C73">
           <Primeiro />
         </Card>
       </div>
