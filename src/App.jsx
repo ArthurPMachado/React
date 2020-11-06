@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Familia from './components/basics/Familia';
 import Primeiro from './components/basics/Primeiro';
 import Propriedades from './components/basics/Propriedades';
 import Fragmento from './components/basics/Fragmento';
@@ -14,6 +15,10 @@ function App() {
       <h1>Fundamentos React</h1>
 
       <div className="cards">
+        <Card titulo="#05 - Componente com Filhos" cor="#00C8F8">
+          <Familia sobrenome="Ferreira" />
+        </Card>
+
         <Card titulo="#04 - Desafio Numero Aleatorio" cor="#FA6900">
           <NumeroAleatorio
             min={10}
