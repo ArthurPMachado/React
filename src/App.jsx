@@ -1,5 +1,6 @@
 import React from 'react';
 
+import MembroFamilia from './components/basics/MembroFamilia';
 import Familia from './components/basics/Familia';
 import Primeiro from './components/basics/Primeiro';
 import Propriedades from './components/basics/Propriedades';
@@ -16,7 +17,11 @@ function App() {
 
       <div className="cards">
         <Card titulo="#05 - Componente com Filhos" cor="#00C8F8">
-          <Familia sobrenome="Ferreira" />
+          <Familia sobrenome="Ferreira">
+            <MembroFamilia nome="Pedro" />
+            <MembroFamilia nome="Ana" />
+            <MembroFamilia nome="Gustavo" />
+          </Familia>
         </Card>
 
         <Card titulo="#04 - Desafio Numero Aleatorio" cor="#FA6900">
