@@ -1,5 +1,6 @@
 import React from 'react';
 
+import UsuarioInfo from './components/basics/UsuarioInfo';
 import ParOuImpar from './components/basics/ParOuImpar';
 import TabelaProdutos from './components/basics/TabelaProdutos';
 import ListaAlunos from './components/basics/ListaAlunos';
@@ -21,6 +22,9 @@ function App() {
       <div className="cards">
         <Card titulo="#08 - Renderização Condicional" cor="#982395">
           <ParOuImpar numero={21} />
+          <UsuarioInfo usuario={{ nome: 'Fernando' }} />
+          <UsuarioInfo usuario={{ email: 'fer@gmail.com' }} />
+          <UsuarioInfo usuario={{}} />
         </Card>
 
         <Card titulo="#07 - Mais Repetição" cor="#3A9AD9">
