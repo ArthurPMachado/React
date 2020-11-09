@@ -1,5 +1,6 @@
 import React from 'react';
 
+import DiretaPai from './components/basics/DiretaPai';
 import UsuarioInfo from './components/basics/UsuarioInfo';
 import ParOuImpar from './components/basics/ParOuImpar';
 import TabelaProdutos from './components/basics/TabelaProdutos';
@@ -20,6 +21,10 @@ function App() {
       <h1>Fundamentos React</h1>
 
       <div className="cards">
+        <Card titulo="#09 - Comunicação Direta" cor="#59323C">
+          <DiretaPai />
+        </Card>
+
         <Card titulo="#08 - Renderização Condicional" cor="#982395">
           <ParOuImpar numero={21} />
           <UsuarioInfo usuario={{ nome: 'Fernando' }} />
