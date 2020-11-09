@@ -1,5 +1,6 @@
 import React from 'react';
 
+import IndiretaPai from './components/basics/IndiretaPai';
 import DiretaPai from './components/basics/DiretaPai';
 import UsuarioInfo from './components/basics/UsuarioInfo';
 import ParOuImpar from './components/basics/ParOuImpar';
@@ -21,6 +22,10 @@ function App() {
       <h1>Fundamentos React</h1>
 
       <div className="cards">
+        <Card titulo="#10 - Comunicação Indireta" cor="#8BAD39">
+          <IndiretaPai />
+        </Card>
+
         <Card titulo="#09 - Comunicação Direta" cor="#59323C">
           <DiretaPai />
         </Card>
