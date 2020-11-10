@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Input from './components/basics/Input';
 import IndiretaPai from './components/basics/IndiretaPai';
 import DiretaPai from './components/basics/DiretaPai';
 import UsuarioInfo from './components/basics/UsuarioInfo';
@@ -22,6 +23,10 @@ function App() {
       <h1>Fundamentos React</h1>
 
       <div className="cards">
+        <Card titulo="#11 - Componente Controlado (Input)" cor="#E45F56">
+          <Input />
+        </Card>
+
         <Card titulo="#10 - Comunicação Indireta" cor="#8BAD39">
           <IndiretaPai />
         </Card>
