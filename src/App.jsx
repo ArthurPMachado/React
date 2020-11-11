@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Mega from './components/basics/Mega';
 import Input from './components/basics/Input';
 import IndiretaPai from './components/basics/IndiretaPai';
 import DiretaPai from './components/basics/DiretaPai';
@@ -23,6 +24,10 @@ function App() {
       <h1>Fundamentos React</h1>
 
       <div className="cards">
+        <Card titulo="#12 - Desafio Mega Sena" cor="#B9006E">
+          <Mega />
+        </Card>
+
         <Card titulo="#11 - Componente Controlado (Input)" cor="#E45F56">
           <Input />
         </Card>

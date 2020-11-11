@@ -28,6 +28,7 @@
         "react/prop-types": "warn",
         "react/destructuring-assignment": "warn",
         "no-unused-vars": "warn",
-        "react/jsx-props-no-spreading": "warn"
+        "react/jsx-props-no-spreading": "warn",
+        "radix": "warn"
     }
 }
